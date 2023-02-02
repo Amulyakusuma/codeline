@@ -1,5 +1,5 @@
 version: 0.0
-os: ubuntu
+os: linux
 
 files:
   - source: /
@@ -10,7 +10,6 @@ permissions:
     pattern: "**"
     owner: root
     group: root
-    777
 hooks:
 
   BeforeInstall:
