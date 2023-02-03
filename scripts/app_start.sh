@@ -3,6 +3,5 @@
 #_Change_Working_Directory
 cd /home/ubuntu/server
 
-#sudo pm2 start server.js 
-
-pm2 start server.js 
+#sudo start server.js 
+npm start server.js 
